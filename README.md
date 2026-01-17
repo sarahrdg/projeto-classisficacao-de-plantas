@@ -1,0 +1,53 @@
+# Identificador da flora de Guaramiranga
+> **Projeto Final de Programação Orientada a Objetos (POO) - UFC**
+
+Este projeto foi desenvolvido como parte da disciplina de Programação Orientada a Objetos (POO). O objetivo é fornecer uma ferramenta de software para uma ONG ambiental em Guaramiranga, Ceará, auxiliando na identificação e classificação de espécies vegetais da região.
+
+## Funcionalidade
+O sistema oferece dois caminhos para a identificação:
+
+**Por meio de Perguntas:** Guia o usuário através de características biológicas para identificar o grupo da planta (Briófitas, Pteridófitas, Gimnospermas ou Angiospermas).
+
+**Busca Direta:** Permite pesquisar uma planta pelo seu nome popular para obter informações científicas completas.
+
+**Ficha Técnica:** Exibe grupo, espécie, nome popular, características e uma curiosidade biológica baseada no polimorfismo.
+
+## Tecnologias utilizadas
+**Linguagem:** ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+**Biblioteca:** Pandas (para manipulação da base de dados CSV)
+
+
+## Implementação dos Pilares de POO
+O projeto foi estruturado para demonstrar o domínio dos quatro pilares da POO:
+
+**Abstração:** Criação da classe base `Plantas`.
+
+**Encapsulamento:** Uso de atributos privados (`__`) e métodos de acesso Getters.
+
+**Herança:** Implementação de subclasses específicas (`Angiosperma, Gimnosperma, Pteridofita e Briofita`) que herdam da classe mãe Plantas.
+
+**Polimorfismo:** Uso do método `curiosidade()` que retorna informações distintas dependendo da classe específica do objeto instanciado.
+
+## Estrutura do Projeto
+`main.py`: Ponto de entrada do programa e interface do menu.
+
+`plantas.py`: Definição das classes e subclasses (Modelo).
+
+`identificador.py`: Lógica de busca e carregamento de dados (Controlador).
+
+`plantas_guaramiranga.csv`: Base de dados contendo até então 80 espécies cadastradas.
+
+## Como Executar
+1. Certifique-se de ter o Python e a biblioteca Pandas instalados:
+
+
+```pip install pandas```
+
+2. Clone o repositório ou baixe os arquivos.
+
+```git clone https://github.com/seu-usuario/seu-repositorio.git```
+
+3. Execute o arquivo principal:
+
+```python main.py```
