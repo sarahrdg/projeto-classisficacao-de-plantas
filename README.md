@@ -32,9 +32,9 @@ O projeto foi estruturado para demonstrar o domínio dos quatro pilares da POO:
 ## Estrutura do Projeto
 `main.py`: Ponto de entrada do programa e interface do menu.
 
-`plantas.py`: Definição das classes e subclasses (Modelo).
+`plantas.py`: Definição das classes e subclasses.
 
-`identificador.py`: Lógica de busca e carregamento de dados (Controlador).
+`identificador.py`: Lógica de busca e carregamento de dados.
 
 `plantas_guaramiranga.csv`: Base de dados contendo até então 80 espécies cadastradas.
 
