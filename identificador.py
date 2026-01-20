@@ -19,7 +19,7 @@ class Identificador:
             # 4. Adiciona esse objeto na nossa lista (isso é 'popular' a lista!)
             self.lista_plantas.append(nova_planta)
         
-        print(f"Sucesso! {len(self.lista_plantas)} plantas de Guaramiranga carregadas.")
+        print(f"Sucesso! {len(self.lista_plantas)} plantas de Irauçuba carregadas.")
 
     def buscar_por_nome(self, nome_digitado):
         # Lógica simples de busca:

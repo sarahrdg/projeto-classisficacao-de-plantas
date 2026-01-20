@@ -3,9 +3,9 @@ from identificador import Identificador
 from plantas import Plantas
 
 meu_buscador = Identificador()
-meu_buscador.ler_planilha('plantas Guaramiranga - Planilha de Plantas Nativas de Guaramiranga.csv')
+meu_buscador.ler_planilha('plantas_iraucuba.csv')
 
-print("\n=== BEM-VINDO AO IDENTIFICADOR DA FLORA DE GUARAMIRANGA ===")
+print("\n=== BEM-VINDO AO IDENTIFICADOR DA FLORA DE IRAUÇUBA ===")
 
 while True:
     print("\nResponda as perguntas para identificarmos a planta:")
@@ -19,7 +19,7 @@ while True:
     opcao = input("\nEscolha uma opção: ")
 
     if opcao == "0":
-        print("Saindo... Até a próxima trilha em Guaramiranga!")
+        print("Saindo...")
         break
     grupo_escolhido = ""
     if opcao == "1": grupo_escolhido = "Angiosperma"
@@ -35,7 +35,7 @@ while True:
     if grupo_escolhido:
         plantas_filtradas = meu_buscador.filtrar_por_grupo(grupo_escolhido)
         
-        print(f"\nEncontrei {len(plantas_filtradas)} plantas desse grupo em Guaramiranga.")
+        print(f"\nEncontrei {len(plantas_filtradas)} plantas desse grupo em Irauçuba.")
         print("Aqui estão elas para você identificar:")
         
         for p in plantas_filtradas:
