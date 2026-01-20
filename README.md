@@ -38,6 +38,11 @@ O projeto foi estruturado para demonstrar o domínio dos quatro pilares da POO:
 
 `plantas_guaramiranga.csv`: Base de dados contendo até então 80 espécies cadastradas.
 
+## UML
+
+<img width="621" height="671" alt="image" src="https://github.com/user-attachments/assets/938b4463-37c7-4dae-8135-f0729e52a2d6" />
+
+
 ## Como Executar
 1. Certifique-se de ter o Python e a biblioteca Pandas instalados:
 
